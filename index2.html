@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Dom</title>
+    <style>
+        .mybackground{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <p id="myp" class="">Welcom</p>
+    <button onclick="changeText()">click me</button>
+</body>
+<script>
+    function changeText(){
+       let pag=document.getElementById('myp')
+       pag.classList.add('mybackground')
+    }
+
+</script>
+</html>
